@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="layout.css">
+        <style>
+            :root{
+
+            --main-color: gray;
+            --main-color: white;
+            }
+            *{
+
+               margin: 0px;
+               padding: 0px;
+                box-sizing: border-box;
+                font-family: 'Mulish', sans-serif;
+                list-style-type: none;
+            }
+            body{
+
+                background: #f8f8f8;
+            }
+           .conteiner{
+
+            max-width: 1140px;
+            width: 85%;
+            margin: 0 auto;
+           
+         
+           
+           }
+                .team{
+                    font-size: 28px;
+                    color: #ffa62b;
+                      font-weight: bold;
+                      line-height: 1.7;
+                      margin-top: 4rem;
+                }
+             .qualified{
+                font-size: 49px;
+                 font-weight: bold;
+               
+               
+                 
+                  
+             }
+             .header{
+                position: relative;
+
+             }
+             .header img{
+                width: 100%;
+                overflow: hidden;
+              
+            
+               
+              
+             }
+             .icon{
+                position: absolute;
+                bottom: 0px;
+                left: 9px;
+                font-size: 29px;
+                opacity: 0;
+                transition: 1s;
+
+                
+              
+             }
+             .icon:hover{
+               
+                opacity: 1;
+
+             }
+             .icon i:hover{
+                background-color: #e28d15;
+                transition: 0.6s;
+             }
+             .sen{
+
+                color: gray;
+                font-size: 14px;
+                 font-weight: 500;
+             }
+             .box{
+
+                transition: 0.6s;
+                background-color: white;
+                margin-top: 3rem;
+               
+               
+            
+
+             }
+             .box:hover{
+                background-color: #ffa62b;
+            
+               
+                
+                
+             }
+             .cont{
+                display: flex;
+                justify-content: space-between;
+                background: #363b42;
+                background: #363b42;
+                width: 100%;
+                height: 80px;
+               
+              
+              
+
+               
+
+             }
+             .icons i{
+                  margin-left: 13px;
+                 margin-right: 13px;
+                 background-color: grey;
+                 width: 50px;
+                 height: 50px;
+                 font-size: 30px;
+                 text-align: center;
+                 padding-top: 12px;
+                 color: #ffa62b;
+                 background: rgba(255, 255, 255, 0.05);
+                
+             }
+             .cont p span{
+
+                font-weight: 600;
+                 color: #ffa62b;
+             }
+            
+            #num{
+                color: #f8f8f8;
+            }
+            .email{
+
+                font-weight: 600;
+                 color: #ffa62b;
+            }
+            #build{
+
+                color: #f8f8f8;
+            }
+          .navbar{
+            display: flex;
+            justify-content: space-between;
+            background-color: #373839;
+            align-items: center;
+           
+            
+          }
+          .navbar li{
+            display: inline-block;
+            margin-left: 15px;
+            margin-right: 15px;
+           
+          }
+          .navbar h1{
+
+
+            width: 16%;
+                      background: #ffa62b;
+                      height: 79px;
+                 padding-top: 7px;
+                 padding-left: 10px;
+          }
+        .navbar  ul li{
+
+            position: relative;
+            cursor: pointer;
+            color: #f8f8f8;
+           
+          }
+         ul li::after{
+            content: " ";
+            position: absolute;
+            width: 0px;
+            height: 3px;
+            color: #ffa62b;
+            border-bottom: 3px solid;
+            bottom:-10px ;
+            left: 0px;
+            transition: 0.7s;
+
+         }
+         ul li:hover::after{
+            width: 100%;
+         }
+
+                       
+        </style>
+        <body>
+          <header>
+            <div class="cont">
+
+                <p  id="num"> <span> Free Call: </span>  +1 234 456 78910   </p>
+               <p id="build">  <span class="email"> Email Adddress: </span> buildream@info.com </p> 
+               <div class="icons ">
+                <span>   <a href=" https://www.instagram.com/  " target="_blank"> <i class='bx bxl-instagram'></i> </a>   </span>
+                <span><i class='bx bxl-facebook' ></i> </span>
+                <span><i class='bx bxl-whatsapp' ></i> </span>
+               <span> <a href=" https://web.telegram.org/a/ "><i class='bx bxl-telegram'></i> </a></span>
+               </div>
+
+              
+
+
+            </div>
+             
+          
+          </header>
+          <div class="navbar">
+            <h1>BUILDREAM</h1>
+              <ul>
+                <li id="home">HOME</li>
+                <li>ABOUT</li>
+                <li>SERVICES</li>
+                <li>PROJECTS</li>
+                <li> BLOG</li>
+                <li> PRICING</li>
+                <li>CONTACT</li>
+              </ul>
+        </div>
+            
+            <section>
+                <div class="conteiner">
+                    <div class="row  justify-content-center  ">
+                        <div class="col-5 text-center ">
+                          <p class="team"> Team & Staff</p>
+                          <h3 class="qualified">Qualified Engineers </h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <div class="box">
+                                <div class="header">
+                                    <img src=" staff-1.jpg.webp  " alt="">
+                                    <ul class="icon">
+                                        <li>  <i class='bx bxl-instagram'></i> </li>
+                                        <li> <i class='bx bxl-google-plus-circle' ></i></li>
+                                        <li> <i class='bx bxl-facebook-circle' ></i>  </li>
+                                        <li><i class='bx bxl-twitter' ></i> </li>
+                                        
+                                    </ul>
+
+                                </div>
+                                <div class="footer">
+                                    <h4 class="name text-center "  >Lionel Wurtchbach </h4>
+                                    <p  class="sen text-center "> SENIOR ENGINEER </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-5">
+                            <div class="box">
+                                <div class="header">
+                                    <img src=" staff-2.jpg.webp " alt="">
+                                    <ul class="icon">
+                                        <li>  <i class='bx bxl-instagram'></i> </li>
+                                        <li> <i class='bx bxl-google-plus-circle' ></i></li>
+                                        <li> <i class='bx bxl-facebook-circle' ></i>  </li>
+                                        <li><i class='bx bxl-twitter' ></i> </li>
+                                        
+                                    </ul>
+
+                                </div>
+                                <div class="footer">
+                                    <h4 class="name text-center "  > Mike Nintido</h4>
+                                    <p  class="sen text-center "> SENIOR ENGINEER </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-5">
+                            <div class="box">
+                                <div class="header">
+                                    <img src=" staff-3.jpg.webp  " alt="">
+                                    <ul class="icon">
+                                        <li>  <i class='bx bxl-instagram'></i> </li>
+                                        <li> <i class='bx bxl-google-plus-circle' ></i></li>
+                                        <li> <i class='bx bxl-facebook-circle' ></i>  </li>
+                                        <li><i class='bx bxl-twitter' ></i> </li>
+                                        
+                                    </ul>
+
+                                </div>
+                                <div class="footer">
+                                    <h4 class="name text-center "  > Bea Alam</h4>
+                                    <p  class="sen text-center "> SENIOR ENGINEER </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <div class="col-5">
+                            <div class="box">
+                                <div class="header">
+                                    <img src="staff-4.jpg.webp  " alt="">
+                                    <ul class="icon">
+                                        <li>  <i class='bx bxl-instagram'></i> </li>
+                                        <li> <i class='bx bxl-google-plus-circle' ></i></li>
+                                        <li> <i class='bx bxl-facebook-circle' ></i>  </li>
+                                        <li><i class='bx bxl-twitter' ></i> </li>
+                                        
+                                    </ul>
+
+                                </div>
+                                <div class="footer">
+                                    <h4 class="name text-center "  > John Buffer</h4>
+                                    <p  class="sen text-center "> SENIOR ENGINEER </p>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            
+        </body>
+    </head>
+</html>
